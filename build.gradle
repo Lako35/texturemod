@@ -1,0 +1,57 @@
+plugins {
+    id 'fabric-loom' version '1.11.7'
+    id 'maven-publish'
+}
+
+group = 'com.example'     // change me
+version = '1.0.0'
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(21) }  // MC 1.21.x uses Java 21
+    withSourcesJar()
+}
+
+repositories {
+    // Needed so Gradle can fetch loader + mappings + Fabric API
+    maven { name = "Fabric"; url = "https://maven.fabricmc.net/" }
+    mavenCentral()
+
+    // Local jars (e.g., GeckoLib you vendored)
+    flatDir { dirs 'libs' }
+}
+
+dependencies {
+    // Core game + mappings
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    mappings loom.layered() {
+        mappings "net.fabricmc:yarn:${yarn_mappings}:v2"
+    }
+
+    // Fabric Loader from Maven
+    modImplementation "net.fabricmc:fabric-loader:${loader_version}"
+
+    // === Fabric API on compile+runtime via Maven (so IDE sees all packages) ===
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+
+    // === GeckoLib from your local libs/ (offline) ===
+    modImplementation files("libs/geckolib-fabric-${minecraft_version}-${geckolib_version}.jar")
+
+}
+
+loom {
+    // Optional: split client/server sources (place client-only code under src/client/java)
+    splitEnvironmentSourceSets()
+
+    runs {
+        client {
+            vmArg "-Dfabric.log.level=info"
+            programArg "--username=Dev"
+        }
+        server { }
+    }
+}
+
+// (Optional) easier jar naming
+tasks.withType(Jar).configureEach {
+    archiveBaseName.set("archistructurehelper") // match your modid/name if you want
+}

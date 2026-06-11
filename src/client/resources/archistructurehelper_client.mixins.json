@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "com.example.archistructurehelper.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ArrowRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
