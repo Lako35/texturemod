@@ -1,0 +1,479 @@
+{
+    "bulletbig": {
+        "replace": false,
+        "sounds": [
+            "bulletbig"
+        ]
+    },
+    "nomnomnom": {
+        "replace": false,
+        "sounds": [
+            "nomnomnom"
+        ]
+    },
+    "microhid": {
+        "replace": false,
+        "stream": true,
+        "sounds": [
+            "microhid"
+        ]
+    },
+    "cash": {
+        "replace": false,
+        "stream": false,
+        "sounds": [
+            "cash"
+        ]
+    },
+    "judgementcut": {
+        "replace": false,
+        "sounds": [
+            "judgementcut"
+        ]
+    },
+    "judgementcutend": {
+        "replace": false,
+        "sounds": [
+            "judgementcutend"
+        ]
+    },
+    "bulletmedium": {
+        "replace": false,
+        "sounds": [
+            "bulletmedium"
+        ]
+    },
+    "bulletsmall": {
+        "replace": false,
+        "sounds": [
+            "bulletsmall"
+        ]
+    },
+    "bulletauto": {
+        "replace": false,
+        "sounds": [
+            "bulletauto"
+        ]
+    },
+    "reloadbolt": {
+        "replace": false,
+        "sounds": [
+            "reloadbolt"
+        ]
+    },
+    "reloadbullet": {
+        "replace": false,
+        "sounds": [
+            "reloadbullet"
+        ]
+    },
+    "reloadmagin": {
+        "replace": false,
+        "sounds": [
+            "reloadmagin"
+        ]
+    },
+    "reloadmagout": {
+        "replace": false,
+        "sounds": [
+            "reloadmagout"
+        ]
+    },
+    "warheadexplode": {
+        "replace": false,
+        "sounds": [
+            "warheadexplode"
+        ]
+    },
+    "warheadlaunch": {
+        "replace": false,
+        "sounds": [
+            "warheadlaunch"
+        ]
+    },
+    "bulletlazer": {
+        "replace": false,
+        "sounds": [
+            "bulletlazer"
+        ]
+    },
+    "flashbang": {
+        "replace": false,
+        "sounds": [
+            "flashbang"
+        ]
+    },
+    "chainsmall": {
+        "replace": false,
+        "sounds": [
+            "chainsmall"
+        ]
+    },
+    "metalhit": {
+        "replace": false,
+        "sounds": [
+            "metalhit"
+        ]
+    },
+    "shockwave": {
+        "replace": false,
+        "sounds": [
+            "shockwave"
+        ]
+    },
+    "lazerfire": {
+        "replace": false,
+        "sounds": [
+            "lazerfire"
+        ]
+    },
+    "bulletswblaster": {
+        "replace": false,
+        "sounds": [
+            "bulletswblaster"
+        ]
+    },
+    "bulletneedler": {
+        "replace": false,
+        "sounds": [
+            "bulletneedler"
+        ]
+    },
+    "bullethalolazer": {
+        "replace": false,
+        "sounds": [
+            "bullethalolazer"
+        ]
+    },
+    "bulletdeagle": {
+        "replace": false,
+        "sounds": [
+            "bulletdeagle"
+        ]
+    },
+    "bulletsmallauto": {
+        "replace": false,
+        "sounds": [
+            "bulletsmallauto"
+        ]
+    },
+    "driving": {
+        "replace": false,
+        "sounds": [
+            "driving"
+        ]
+    },
+    "driving2": {
+        "replace": false,
+        "sounds": [
+            "driving2"
+        ]
+    },
+    "engine": {
+        "replace": false,
+        "sounds": [
+            "engine"
+        ]
+    },
+    "carskid": {
+        "replace": false,
+        "sounds": [
+            "carskid"
+        ]
+    },
+    "honk": {
+        "replace": false,
+        "sounds": [
+            "honk"
+        ]
+    },
+    "siren": {
+        "replace": false,
+        "sounds": [
+            "siren"
+        ]
+    },
+    "lightsaberstart": {
+        "replace": false,
+        "sounds": [
+            "lightsaberstart"
+        ]
+    },
+    "saberhit": {
+        "replace": false,
+        "sounds": [
+            "saberhit"
+        ]
+    },
+    "sithsaberstart": {
+        "replace": false,
+        "sounds": [
+            "sithsaberstart"
+        ]
+    },
+    "reloadclick": {
+        "replace": false,
+        "sounds": [
+            "reloadclick"
+        ]
+    },
+    "reloadmagclick": {
+        "replace": false,
+        "sounds": [
+            "reloadmagclick"
+        ]
+    },
+    "outofammoclick": {
+        "replace": false,
+        "sounds": [
+            "outofammoclick"
+        ]
+    },
+    "openbag": {
+        "replace": false,
+        "sounds": [
+            "openbag"
+        ]
+    },
+    "partyshot": {
+        "replace": false,
+        "sounds": [
+            "partyshot"
+        ]
+    },
+    "thumper": {
+        "replace": false,
+        "sounds": [
+            "thumper"
+        ]
+    },
+    "bulletsilence": {
+        "replace": false,
+        "sounds": [
+            "bulletsilence"
+        ]
+    },
+    "reloadak47": {
+        "replace": false,
+        "sounds": [
+            "reloadak47"
+        ]
+    },
+    "reloadslide": {
+        "replace": false,
+        "sounds": [
+            "reloadslide"
+        ]
+    },
+    "bulletmauser": {
+        "replace": false,
+        "sounds": [
+            "bulletmauser"
+        ]
+    },
+    "bulletak47": {
+        "replace": false,
+        "sounds": [
+            "bulletak47"
+        ]
+    },
+    "reloadfn": {
+        "replace": false,
+        "sounds": [
+            "reloadfn"
+        ]
+    },
+    "reloadm16": {
+        "replace": false,
+        "sounds": [
+            "reloadm16"
+        ]
+    },
+    "reloadshotgun": {
+        "replace": false,
+        "sounds": [
+            "reloadshotgun"
+        ]
+    },
+    "bulletshotgun": {
+        "replace": false,
+        "sounds": [
+            "bulletshotgun"
+        ]
+    },
+    "reloadshell": {
+        "replace": false,
+        "sounds": [
+            "reloadshell"
+        ]
+    },
+    "railgunlaunch": {
+        "replace": false,
+        "sounds": [
+            "railgunlaunch"
+        ]
+    },
+    "railgunreload": {
+    "replace": false,
+    "sounds": [
+        "railgunreload"
+    ]
+        },
+        "microhid0": {
+        "replace": false,
+        "sounds": [
+            "microhid0"
+        ]
+        },
+        "microhid1": {
+        "replace": false,
+        "sounds": [
+            "microhid1"
+        ]
+        },
+        "microhid2": {
+        "replace": false,
+        "sounds": [
+            "microhid2"
+        ]
+        },
+        "microhid3": {
+        "replace": false,
+        "sounds": [
+            "microhid3"
+        ]
+        },
+        "microhid4": {
+        "replace": false,
+        "sounds": [
+            "microhid4"
+        ]
+        },
+        "microhid5": {
+        "replace": false,
+        "sounds": [
+            "microhid5"
+        ]
+        },
+        "microhid6": {
+        "replace": false,
+        "sounds": [
+            "microhid6"
+        ]
+        },
+        "microhid7": {
+        "replace": false,
+        "sounds": [
+            "microhid7"
+        ]
+        },
+        "microhid8": {
+        "replace": false,
+        "sounds": [
+            "microhid8"
+        ]
+        },
+        "microhid9": {
+        "replace": false,
+        "sounds": [
+            "microhid9"
+        ]
+        },
+        "microhid10": {
+        "replace": false,
+        "sounds": [
+            "microhid10"
+        ]
+        },
+        "microhid11": {
+        "replace": false,
+        "sounds": [
+            "microhid11"
+        ]
+        },
+        "microhid12": {
+        "replace": false,
+        "sounds": [
+            "microhid12"
+        ]
+        },
+        "microhid13": {
+        "replace": false,
+        "sounds": [
+            "microhid13"
+        ]
+        },
+        "microhidfiring": {
+        "replace": false,
+        "sounds": [
+            "microhidfiring"
+        ]
+        },
+        "micropowerdown": {
+        "replace": false,
+        "sounds": [
+            "micropowerdown"
+        ]
+        },
+        "microhidcharge12": {
+        "replace": false,
+        "sounds": [
+            "microhidcharge12"
+        ]
+        },
+        "microhididle": {
+        "replace": false,
+        "sounds": [
+            "microhididle"
+        ]
+        },
+        "microhidcharge13": {
+        "replace": false,
+        "sounds": [
+            "microhidcharge13"
+        ]
+        },
+        "microhidcharge14": {
+        "replace": false,
+        "sounds": [
+            "microhidcharge14"
+        ]
+        },
+        "microhidcharge15": {
+        "replace": false,
+        "sounds": [
+            "microhidcharge15"
+        ]
+        },
+        "microhidcharge16": {
+        "replace": false,
+        "sounds": [
+            "microhidcharge16"
+        ]
+        },
+        "microhidcharge17": {
+        "replace": false,
+        "sounds": [
+            "microhidcharge17"
+        ]
+        },
+        "microhidcharge18": {
+        "replace": false,
+        "sounds": [
+            "microhidcharge18"
+        ]
+        },
+        "microhidcharge19": {
+        "replace": false,
+        "sounds": [
+            "microhidcharge19"
+        ]
+        }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,37 @@
+{
+    "parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/paper"
+	},
+
+    "overrides": [
+        
+        {"predicate": {"custom_model_data":26}, "model": "item/paper/26"},
+        {"predicate": {"custom_model_data":27}, "model": "item/paper/27"},
+        {"predicate":{"custom_model_data":33},"model":"qualityarmory:gun/fatman"},
+        {"predicate":{"custom_model_data":57},"model":"qualityarmory:gun/mark19"},
+        {"predicate": {"custom_model_data":1003}, "model": "item/paper/1003"},
+        {"predicate": {"custom_model_data":1004}, "model": "item/paper/1004"},
+        {"predicate": {"custom_model_data":1005}, "model": "item/paper/1005"},
+        {"predicate": {"custom_model_data":1006}, "model": "item/paper/1006"},
+        {"predicate": {"custom_model_data":1007}, "model": "item/paper/1007"},
+        {"predicate": {"custom_model_data":1008}, "model": "item/paper/1008"},
+        {"predicate": {"custom_model_data":1009}, "model": "item/paper/1009"},
+        {"predicate": {"custom_model_data":1010}, "model": "item/paper/1010"},
+        {"predicate": {"custom_model_data":1100}, "model": "item/paper/1100"},
+        {"predicate": {"custom_model_data":1101}, "model": "item/paper/1101"},
+        {"predicate": {"custom_model_data":1102}, "model": "item/paper/1102"},
+        {"predicate": {"custom_model_data":1103}, "model": "item/paper/1103"},
+        {"predicate": {"custom_model_data":1104}, "model": "item/paper/1104"},
+        {"predicate": {"custom_model_data":1105}, "model": "item/paper/1105"},
+        {"predicate": {"custom_model_data":1106}, "model": "item/paper/1106"},
+        {"predicate": {"custom_model_data":1107}, "model": "item/paper/1107"},
+        {"predicate": {"custom_model_data":1108}, "model": "item/paper/1108"},
+        {"predicate": {"custom_model_data":1109}, "model": "item/paper/1109"},
+        {"predicate": {"custom_model_data":1110}, "model": "item/paper/1110"},
+        {"predicate": {"custom_model_data":1111}, "model": "item/paper/1111"},
+        {"predicate": {"custom_model_data":1112}, "model": "item/paper/1112"},
+        {"predicate": {"custom_model_data":1113}, "model": "item/paper/1113"},
+        {"predicate": {"custom_model_data":1114}, "model": "item/paper/1114"}
+    ]
+}

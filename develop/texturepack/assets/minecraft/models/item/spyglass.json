@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spyglass"
+	},
+
+    "overrides": [
+        
+        {"predicate":{"custom_model_data":57},"model":"qualityarmory:gun/mark19"}
+    ]
+}

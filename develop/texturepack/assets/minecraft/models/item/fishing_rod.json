@@ -1,0 +1,13 @@
+{
+ "parent": "item/handheld_rod",
+ "textures": {
+  "layer0": "item/fishing_rod"
+ },
+
+ "overrides": [
+  { "predicate": {"custom_model_data": 13}, "model": "item/fishing_rod/13"}
+
+ ]
+
+ 
+}

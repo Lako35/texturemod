@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+	  "1": "/item/custom_textures/blackhole",
+	  "layer0": "item/custom_textures/sickle1"
+	}
+}

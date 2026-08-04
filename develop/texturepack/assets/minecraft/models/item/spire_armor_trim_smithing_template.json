@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spire_armor_trim_smithing_template"
+	},
+
+    "overrides": [
+        {"predicate": {"custom_model_data":69}, "model": "item/spire_armor_trim_smithing_template/69"},
+        {"predicate": {"custom_model_data":70}, "model": "item/spire_armor_trim_smithing_template/70"}
+    ]
+}

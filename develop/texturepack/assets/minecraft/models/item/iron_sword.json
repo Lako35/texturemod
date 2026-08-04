@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/iron_sword"
+	},
+
+    "overrides": [
+        {"predicate":{"custom_model_data":98},"model": "item/iron_sword/98"},
+        {"predicate":{"custom_model_data":99},"model": "item/iron_sword/99"},
+        {"predicate":{"custom_model_data":100},"model": "item/iron_sword/100"}
+    ]
+}
